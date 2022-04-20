@@ -1,16 +1,13 @@
-### Hi there 👋
+# Hi All, This is Nuwan
 
-<!--
-**nuuuwan/nuuuwan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+* If you want to connect on anything work related, please message me or connect on [LinkedIn](https://www.linkedin.com/in/nuwansenaratna).
 
-Here are some ideas to get you started:
+* If you're interested in any of my writings/ramblings (everything from Technology to Management to Philosophy to Economics), checkout my [Medium](https://medium.com/@nuwans). 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* More random ramblings, and summaries of longer form work on [Twitter](https://twitter.com/nuuuwan)
+
+* Some of my compositions (mostly for Piano) at [SoundCloud](https://soundcloud.com/nuwan-i-senaratna)
+
+* A view videos on my [YouTube](https://www.youtube.com/channel/UC19yTKU_K2Qvx3ITHz4u9_A) Channel 
+
+* And finally, [GitHub](https://github.com/nuuuwan) 
