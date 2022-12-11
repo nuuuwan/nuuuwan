@@ -10,7 +10,7 @@ What I'm reading now and read recently
 ### [GitHub](https://github.com/nuuuwan)
 A bunch of (mostly) opensource projects and hobby projects
 
-### [@nuuuwan](https://twitter.com/nuuuwan)
+### [Twitter](https://twitter.com/nuuuwan)
 More ramblings, and shorter summaries of longer form work
 
 ### [SoundCloud](https://soundcloud.com/nuwan-i-senaratna)
