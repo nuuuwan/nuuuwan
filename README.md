@@ -10,8 +10,6 @@
 
 * And finally [GitHub](https://github.com/nuuuwan), where I've shared a bunch of opensource and hobby projects
 
----
-
 Thanks!
 
 Nuwan I. Senaratna
