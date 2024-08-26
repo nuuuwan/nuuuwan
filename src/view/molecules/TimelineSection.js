@@ -6,12 +6,12 @@ import {
   TimelineContent,
   TimelineDot,
   TimelineOppositeContent,
-  timelineOppositeContentClasses,
 } from "@mui/lab";
 import SchoolIcon from "@mui/icons-material/School";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WorkIcon from "@mui/icons-material/Work";
-import { Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
+import Title from "./Title";
 const TIMELINE_INFO_LIST = [
   {
     timeStr: "2017-Present",
@@ -40,14 +40,13 @@ const TIMELINE_INFO_LIST = [
 ];
 
 const STYLE = {
-  [`& .${timelineOppositeContentClasses.root}`]: {
-    flex: 0.2,
-  },
+
 };
 
 function TimelineItemCustom({ info }) {
   const { timeStr, title, details, Icon } = info;
   return (
+
     <TimelineItem>
       <TimelineOppositeContent color="text.secondary">
         {timeStr}
@@ -70,10 +69,12 @@ function TimelineItemCustom({ info }) {
 
 export default function TimelineSection() {
   return (
+    <Box>
+    <Title>Timeline</Title>
     <Timeline sx={STYLE}>
       {TIMELINE_INFO_LIST.map(function (info, i) {
         return <TimelineItemCustom key={i} info={info} />;
       })}
-    </Timeline>
+    </Timeline> </Box>
   );
 }
