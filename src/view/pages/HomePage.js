@@ -32,12 +32,25 @@ function PageTitle() {
           Computer scientist, founder, consultant, and investor specializing in
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
-        <Typography variant="caption">
-          This too shall pass
-        </Typography>
+
       </Stack>
     </Stack>
   );
+}
+
+function PageFooter() {
+  return (    <Stack
+    direction="row"
+    alignItems="center"
+    color="text.secondary"
+    justifyContent="center"
+    gap={2}
+  >
+    <Typography variant="caption" >
+    "This too shall pass"
+  </Typography>
+  </Stack>
+  )
 }
 
 export default function HomePage() {
@@ -50,7 +63,7 @@ export default function HomePage() {
           <LinksSection />
      
           <ProfileSection />
- 
+ <PageFooter/>
     </Box>
   );
 }
