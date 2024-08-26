@@ -5,7 +5,7 @@ import Title from "./Title";
 export default function ProfileSection() {
   return (
     <Box>
-      <Title>Profile</Title>
+      <Title>My Profile</Title>
 
       <ProfileParagraph>
         Nuwan is a computer scientist, founder, consultant, and investor

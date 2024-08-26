@@ -32,8 +32,9 @@ export default function HomePage() {
         <Typography variant="h2">Nuwan I. Senaratna</Typography>
       </Stack>
       <ProfileSection />
-      <ConnectSection />
       <ContentSection />
+      <ConnectSection />
+
     </Stack>
   );
 }
