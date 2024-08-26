@@ -15,9 +15,14 @@ import Title from "./Title";
 
 function ListItemContentInfo({ contentInfo }) {
   const { text, url, Icon } = contentInfo;
+
+  const onClick = function() {
+    window.open(url, "_blank");
+  }
+
   return (
-    <ListItem sx={{ p: 0, m: 0 }}>
-      <ListItemButton href={url} target="_blank">
+    <ListItem sx={{ p: 0, m: 0 }} onClick={onClick}>
+      <ListItemButton >
         <ListItemIcon>
           <Icon />
         </ListItemIcon>
