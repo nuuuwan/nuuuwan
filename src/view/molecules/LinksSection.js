@@ -12,7 +12,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AudiotrackIcon from "@mui/icons-material/Audiotrack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
+import Title from "./Title";
 
 function ListItemContentInfo({ contentInfo }) {
   const { title, subTitle, url, Icon } = contentInfo;
@@ -77,6 +77,7 @@ const CONTENT_INFO_LIST = [
 export default function LinksSection() {
   return (
     <Box>
+      <Title>More information</Title>
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {
           return <ListItemContentInfo key={i} contentInfo={contentInfo} />;
