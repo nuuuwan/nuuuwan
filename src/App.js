@@ -14,7 +14,7 @@ const THEME = createTheme({
   palette: {
     text: {
       primary: "#000",
-      secondary: "#aaa",
+      secondary: "#999",
     },
   },
 });

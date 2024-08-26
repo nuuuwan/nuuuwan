@@ -5,13 +5,14 @@ import {
   ProfileSection,
   TimelineSection,
 } from "../../view/molecules";
+import { STYLE } from "../../nonview/constants";
 
 const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/profile.jpg";
 
-const STYLE = {
+const STYLE_INNER = {
   AVATAR: {
-    height: 96,
-    width: 96,
+    height: STYLE.FONT.SIZE * 12,
+    width: STYLE.FONT.SIZE * 12,
     filter: "grayscale(100%)",
   },
 };
@@ -21,15 +22,17 @@ function PageTitle() {
     <Stack
       direction="row"
       alignItems="center"
-      color="text.secondary"
+
       justifyContent="center"
       gap={2}
       sx={{paddingBottom: 2.5,marginBottom: 2.5, borderBottom: "1px solid #eee"}}
     >
-      <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE.AVATAR} />
-      <Stack direction="column" gap={0}>
-        <Typography variant="h4">Nuwan I. Senaratna</Typography>
-        <Typography variant="body1">
+      <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE_INNER.AVATAR} />
+      <Stack direction="column" gap={0.5}>
+        <Typography variant="h4" color="#800" sx={{fontSize: "240%"}}>නුවන් ඉ. සේනාරත්න</Typography>
+        <Typography variant="h4" color="#f80" sx={{fontSize: "175%"}}>நுவன் இ. சேனாரத்ன</Typography>
+        <Typography variant="h4" color="#084">Nuwan I. Senaratna</Typography>
+        <Typography variant="body1"       color="text.secondary">
           Computer scientist, founder, consultant, and investor specializing in
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
