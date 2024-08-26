@@ -1,4 +1,4 @@
-import { Box, Link } from "@mui/material";
+import { Box,  } from "@mui/material";
 import Title from "./Title";
 
 const QR_CODE_PATH = process.env.PUBLIC_URL + "/images/qr-code.jpg";
