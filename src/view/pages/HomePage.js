@@ -3,7 +3,7 @@ import { Avatar, Stack, Typography } from "@mui/material";
 import {
   ConnectSection,
   ProfileSection,
-  ContentSection,
+  LinksSection,
 } from "../../view/molecules";
 
 const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/profile.jpg";
@@ -32,7 +32,7 @@ export default function HomePage() {
         <Typography variant="h2">Nuwan I. Senaratna</Typography>
       </Stack>
       <ProfileSection />
-      <ContentSection />
+      <LinksSection />
       <ConnectSection />
     </Stack>
   );

@@ -74,7 +74,7 @@ const CONTENT_INFO_LIST = [
   },
 ];
 
-export default function ContentSection() {
+export default function LinksSection() {
   return (
     <Box>
       <Title>My Writings and Other Content</Title>
