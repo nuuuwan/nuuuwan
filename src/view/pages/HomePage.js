@@ -32,13 +32,13 @@ function PageTitle() {
     >
       <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE_INNER.AVATAR} />
       <Stack direction="column" gap={0.5}>
-        <Typography variant="h4" color="#800" sx={{ fontSize: "240%" }}>
+        <Typography variant="h4"  sx={{ fontSize: "235%" }}>
           නුවන් ඉ. සේනාරත්න
         </Typography>
-        <Typography variant="h4" color="#f80" sx={{ fontSize: "175%" }}>
+        <Typography variant="h4"  sx={{ fontSize: "170%" }}>
           நுவன் இ. சேனாரத்ன
         </Typography>
-        <Typography variant="h4" color="#084">
+        <Typography variant="h4" >
           Nuwan I. Senaratna
         </Typography>
         <Typography variant="body1" color="text.secondary">
