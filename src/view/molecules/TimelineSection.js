@@ -39,14 +39,11 @@ const TIMELINE_INFO_LIST = [
   },
 ];
 
-const STYLE = {
-
-};
+const STYLE = {};
 
 function TimelineItemCustom({ info }) {
   const { timeStr, title, details, Icon } = info;
   return (
-
     <TimelineItem>
       <TimelineOppositeContent color="text.secondary">
         {timeStr}
@@ -70,11 +67,12 @@ function TimelineItemCustom({ info }) {
 export default function TimelineSection() {
   return (
     <Box>
-    <Title>Timeline</Title>
-    <Timeline sx={STYLE}>
-      {TIMELINE_INFO_LIST.map(function (info, i) {
-        return <TimelineItemCustom key={i} info={info} />;
-      })}
-    </Timeline> </Box>
+      <Title>Timeline</Title>
+      <Timeline sx={STYLE}>
+        {TIMELINE_INFO_LIST.map(function (info, i) {
+          return <TimelineItemCustom key={i} info={info} />;
+        })}
+      </Timeline>{" "}
+    </Box>
   );
 }
