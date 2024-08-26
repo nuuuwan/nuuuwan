@@ -75,7 +75,7 @@ const CONTENT_INFO_LIST = [
 
 export default function LinksSection() {
   return (
-    <Box sx={{marginLeft:8}}>
+    <Box sx={{ marginLeft: 8 }}>
       <Title>More information</Title>
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {

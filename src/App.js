@@ -13,7 +13,7 @@ const THEME = createTheme({
   },
   palette: {
     text: {
-      secondary: '#ccc',
+      secondary: "#ccc",
     },
   },
 });

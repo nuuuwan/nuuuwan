@@ -6,12 +6,11 @@ import {
   TimelineContent,
   TimelineDot,
   TimelineOppositeContent,
-
   timelineOppositeContentClasses,
 } from "@mui/lab";
 import SchoolIcon from "@mui/icons-material/School";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import WorkIcon from '@mui/icons-material/Work';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import WorkIcon from "@mui/icons-material/Work";
 import { Typography } from "@mui/material";
 const TIMELINE_INFO_LIST = [
   {
@@ -23,31 +22,28 @@ const TIMELINE_INFO_LIST = [
   {
     timeStr: "2009-2017",
     title: "Meta (formerly Facebook), California, USA & London, UK",
-    details:
-      "Software Engineer & Engineering Manager",
+    details: "Software Engineer & Engineering Manager",
     Icon: FacebookIcon,
   },
   {
     timeStr: "2007-2009",
     title: "Stanford University, California, USA",
-    details:
-      "Master of Science in Computer Science",
+    details: "Master of Science in Computer Science",
     Icon: SchoolIcon,
   },
   {
     timeStr: "2002-2006",
     title: "University of Colombo, Sri Lanka",
-    details:
-      "Bachelor of Science in Computer Science and Statistics",
+    details: "Bachelor of Science in Computer Science and Statistics",
     Icon: SchoolIcon,
   },
 ];
 
-const STYLE =  {
-    [`& .${timelineOppositeContentClasses.root}`]: {
-      flex: 0.2,
-    },
-  };
+const STYLE = {
+  [`& .${timelineOppositeContentClasses.root}`]: {
+    flex: 0.2,
+  },
+};
 
 function TimelineItemCustom({ info }) {
   const { timeStr, title, details, Icon } = info;
