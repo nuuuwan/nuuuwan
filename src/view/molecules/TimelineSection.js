@@ -1,17 +1,13 @@
 import {
   Timeline,
-  TimelineItem,
-  TimelineSeparator,
-  TimelineConnector,
-  TimelineContent,
-  TimelineDot,
-  TimelineOppositeContent,
+
 } from "@mui/lab";
 import SchoolIcon from "@mui/icons-material/School";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WorkIcon from "@mui/icons-material/Work";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import Title from "./Title";
+import TimelineItemCustom from "./TimelineItemCustom";
 const TIMELINE_INFO_LIST = [
   {
     timeStr: "2017-Present",
@@ -39,36 +35,13 @@ const TIMELINE_INFO_LIST = [
   },
 ];
 
-const STYLE = {};
 
-function TimelineItemCustom({ info }) {
-  const { timeStr, title, details, Icon } = info;
-  return (
-    <TimelineItem>
-      <TimelineOppositeContent color="text.secondary">
-        {timeStr}
-      </TimelineOppositeContent>
-      <TimelineSeparator>
-        <TimelineDot>
-          <Icon />
-        </TimelineDot>
-        <TimelineConnector />
-      </TimelineSeparator>
-      <TimelineContent>
-        <Typography variant="h6" component="span">
-          {title}
-        </Typography>
-        <Typography color="text.secondary">{details}</Typography>
-      </TimelineContent>
-    </TimelineItem>
-  );
-}
 
 export default function TimelineSection() {
   return (
     <Box>
       <Title>Timeline</Title>
-      <Timeline sx={STYLE}>
+      <Timeline >
         {TIMELINE_INFO_LIST.map(function (info, i) {
           return <TimelineItemCustom key={i} info={info} />;
         })}
