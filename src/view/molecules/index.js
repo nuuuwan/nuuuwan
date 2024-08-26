@@ -2,6 +2,7 @@
 import LinksSection from "./LinksSection";
 import ProfileParagraph from "./ProfileParagraph";
 import ProfileSection from "./ProfileSection";
+import TimelineItemCustom from "./TimelineItemCustom";
 import TimelineSection from "./TimelineSection";
 import Title from "./Title";
 
@@ -9,6 +10,7 @@ export {
   LinksSection,
   ProfileParagraph,
   ProfileSection,
+  TimelineItemCustom,
   TimelineSection,
   Title,
 };

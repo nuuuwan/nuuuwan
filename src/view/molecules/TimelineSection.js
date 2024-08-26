@@ -1,7 +1,4 @@
-import {
-  Timeline,
-
-} from "@mui/lab";
+import { Timeline } from "@mui/lab";
 import SchoolIcon from "@mui/icons-material/School";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WorkIcon from "@mui/icons-material/Work";
@@ -35,13 +32,11 @@ const TIMELINE_INFO_LIST = [
   },
 ];
 
-
-
 export default function TimelineSection() {
   return (
     <Box>
       <Title>My Timeline</Title>
-      <Timeline >
+      <Timeline>
         {TIMELINE_INFO_LIST.map(function (info, i) {
           return <TimelineItemCustom key={i} info={info} />;
         })}
