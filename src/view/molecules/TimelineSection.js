@@ -40,7 +40,7 @@ const TIMELINE_INFO_LIST = [
 export default function TimelineSection() {
   return (
     <Box>
-      <Title>Timeline</Title>
+      <Title>My Timeline</Title>
       <Timeline >
         {TIMELINE_INFO_LIST.map(function (info, i) {
           return <TimelineItemCustom key={i} info={info} />;

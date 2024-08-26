@@ -24,7 +24,7 @@ function PageTitle() {
       color="text.secondary"
       justifyContent="center"
       gap={2}
-      sx={{marginBottom: 5}}
+      sx={{paddingBottom: 2.5,marginBottom: 2.5, borderBottom: "1px solid #eee"}}
     >
       <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE.AVATAR} />
       <Stack direction="column" gap={0}>
@@ -46,6 +46,7 @@ function PageFooter() {
     color="text.secondary"
     justifyContent="center"
     gap={2}
+    sx={{paddingTop: 2.5,paddingTop: 2.5, borderTop: "1px solid #eee"}}
   >
     <Typography variant="caption" >
     "This too shall pass"
