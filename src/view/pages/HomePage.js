@@ -1,4 +1,4 @@
-import { Avatar, Box, Grid, Stack, Typography } from "@mui/material";
+import { Avatar, Box,  Stack, Typography } from "@mui/material";
 
 import {
   LinksSection,
@@ -21,16 +21,19 @@ function PageTitle() {
     <Stack
       direction="row"
       alignItems="center"
-      color="#888"
+      color="text.secondary"
       justifyContent="center"
       gap={2}
     >
       <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE.AVATAR} />
       <Stack direction="column" gap={0}>
-        <Typography variant="h3">Nuwan I. Senaratna</Typography>
-        <Typography variant="h6">
+        <Typography variant="h4">Nuwan I. Senaratna</Typography>
+        <Typography variant="body1">
           Computer scientist, founder, consultant, and investor specializing in
           Artificial Intelligence, Machine Learning and Data Science
+        </Typography>
+        <Typography variant="caption">
+          This too shall pass
         </Typography>
       </Stack>
     </Stack>
@@ -39,19 +42,15 @@ function PageTitle() {
 
 export default function HomePage() {
   return (
-    <Box sx={{ m: 2, p: 2, maxWidth: 720, margin: "auto" }}>
+    <Box sx={{ p: 3, maxWidth: 720, margin: "auto" }}>
       <PageTitle />
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
+     
           <TimelineSection />
-        </Grid>
-        <Grid item xs={12}>
+
           <LinksSection />
-        </Grid>
-        <Grid item xs={12}>
+     
           <ProfileSection />
-        </Grid>{" "}
-      </Grid>
+ 
     </Box>
   );
 }
