@@ -1,8 +1,8 @@
 let STYLE = {};
 
 STYLE.FONT = {
-  SIZE: 12,
-  FAMILY: "ABeeZee",
+  SIZE: 14,
+  FAMILY: "Akshar",
 };
 
 export default STYLE;

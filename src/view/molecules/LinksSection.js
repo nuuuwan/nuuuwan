@@ -49,22 +49,15 @@ const CONTENT_INFO_LIST = [
 
   {
     title: "Code on GitHub",
-    subTitle: "Open Source Code, Hobby Projects, and Analysis",
+    subTitle: "Open Source Code, Analysis, & Hobby Projects",
     url: "https://github.com/nuuuwan",
     Icon: GitHubIcon,
   },
   {
     title: "Videos on YouTube",
-    subTitle: "Videos on Technology, Business, Economics, Arts and Philosophy",
+    subTitle: "Videos on Technology, Business, Economics, Arts & Philosophy",
     url: "https://www.youtube.com/channel/UC19yTKU_K2Qvx3ITHz4u9_A",
     Icon: YouTubeIcon,
-  },
-
-  {
-    title: "X/Twitter",
-    subTitle: "Comments and Summaries of all the above at @nuuuwan",
-    url: "https://twitter.com/nuuuwan",
-    Icon: XIcon,
   },
   {
     title: "SoundCloud",
@@ -72,11 +65,17 @@ const CONTENT_INFO_LIST = [
     url: "https://soundcloud.com/nuwan-i-senaratna",
     Icon: AudiotrackIcon,
   },
+  {
+    title: "X/Twitter",
+    subTitle: "Comments and Summaries of all the above at @nuuuwan",
+    url: "https://twitter.com/nuuuwan",
+    Icon: XIcon,
+  },
 ];
 
 export default function LinksSection() {
   return (
-    <Box>
+    <Box sx={{marginLeft:8}}>
       <Title>More information</Title>
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {

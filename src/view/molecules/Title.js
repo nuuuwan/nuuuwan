@@ -8,7 +8,7 @@ export default function Title({ children }) {
         textAlign: "center",
         paddingTop: 1,
         paddingBottom: 1,
-        color: "#888",
+        color: "text.secondary",
       }}
     >
       {children}
