@@ -24,6 +24,7 @@ function PageTitle() {
       color="text.secondary"
       justifyContent="center"
       gap={2}
+      sx={{marginBottom: 5}}
     >
       <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE.AVATAR} />
       <Stack direction="column" gap={0}>
