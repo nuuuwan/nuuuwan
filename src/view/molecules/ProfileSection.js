@@ -2,14 +2,11 @@ import { Box } from "@mui/material";
 import ProfileParagraph from "./ProfileParagraph";
 import Title from "./Title";
 
-
-
 export default function ProfileSection() {
   return (
     <Box>
-       <Title>Profile</Title>
+      <Title>Profile</Title>
 
-     
       <ProfileParagraph>
         Nuwan is a computer scientist, founder, consultant, and investor
         specializing in Artificial Intelligence, Machine Learning and Data

@@ -1,7 +1,6 @@
-import { Box, Link,  } from "@mui/material";
+import { Box, Link } from "@mui/material";
 import ProfileParagraph from "./ProfileParagraph";
 import Title from "./Title";
-
 
 const QR_CODE_PATH = process.env.PUBLIC_URL + "/images/qr-code.jpg";
 
