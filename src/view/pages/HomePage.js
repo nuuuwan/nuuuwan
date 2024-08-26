@@ -58,7 +58,7 @@ function PageFooter() {
       color="text.secondary"
       justifyContent="center"
       gap={2}
-      sx={{ paddingTop: 2.5, paddingTop: 2.5, borderTop: "1px solid #eee" }}
+      sx={{ paddingTop: 2.5, marginTop: 2.5, borderTop: "1px solid #eee" }}
     >
       <Typography variant="caption">"This too shall pass"</Typography>
     </Stack>
