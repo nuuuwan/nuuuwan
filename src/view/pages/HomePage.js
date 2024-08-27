@@ -33,23 +33,15 @@ function PageTitle() {
     >
       <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE_INNER.AVATAR} />
       <Stack direction="column" gap={0.5}>
-        <Typography variant="h5">
-          නුවන් ඉ. සේනාරත්න
-        </Typography>
-        <Typography variant="h6">
-          நுவன் இ. சேனாரத்ன
-        </Typography>
+        <Typography variant="h5">නුවන් ඉ. සේනාරත්න</Typography>
+        <Typography variant="h6">நுவன் இ. சேனாரத்ன</Typography>
         <Typography variant="h4">Nuwan I. Senaratna</Typography>
         <Typography variant="body1" color="text.secondary">
           Computer scientist, founder, consultant, and investor specializing in
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
-
       </Stack>
-      <QRCode
-    size={128}
-    value={"https://www.nuwan.org"}
-  />
+      <QRCode size={128} value={"https://www.nuwan.org"} />
     </Stack>
   );
 }
