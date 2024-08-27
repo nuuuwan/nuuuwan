@@ -42,7 +42,6 @@ function PageTitle() {
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
       </Stack>
-     
     </Stack>
   );
 }
@@ -57,9 +56,8 @@ function PageFooter() {
       gap={2}
       sx={{ paddingTop: 2.5, marginTop: 2.5, borderTop: "1px solid #f8f8f8" }}
     >
-       <QRCode size={256} value={"https://www.nuwan.org"} />
+      <QRCode size={256} value={"https://www.nuwan.org"} />
       <Typography variant="caption">"This too shall pass"</Typography>
-      
     </Stack>
   );
 }
