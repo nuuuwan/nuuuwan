@@ -5,7 +5,7 @@ import ProfileParagraph from "./ProfileParagraph";
 function VisionItem({ vision }) {
   const { title, details } = vision;
   return (
-    <Paper sx={{ maxWidth: 300, m: 1, p: 2 }}>
+    <Paper sx={{ maxWidth: 300, m: 1, p: 2, backgroundColor: "#f801" }}>
       <Typography variant="h6" color="text.secondary">
         {title}
       </Typography>
