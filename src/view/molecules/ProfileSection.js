@@ -14,7 +14,7 @@ const PARAGRAPH_LIST = [
 export default function ProfileSection() {
   return (
     <Box>
-      <Title>My Profile</Title>
+      <Title>Profile</Title>
       {PARAGRAPH_LIST.map(function (paragraph, i) {
         return <ProfileParagraph key={i}>{paragraph}</ProfileParagraph>;
       })}

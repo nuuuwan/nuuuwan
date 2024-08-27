@@ -5,15 +5,16 @@ import {
   ProfileSection,
   TimelineSection,
 } from "../../view/molecules";
-import { STYLE } from "../../nonview/constants";
+
+import QRCode from "react-qr-code";
 
 const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/profile.jpg";
 
 const STYLE_INNER = {
   AVATAR: {
-    height: STYLE.FONT.SIZE * 12,
-    width: STYLE.FONT.SIZE * 12,
-    filter: "opacity(33%); ",
+    height: 128,
+    width: 128,
+    filter: "opacity(20%); ",
   },
 };
 
@@ -43,7 +44,12 @@ function PageTitle() {
           Computer scientist, founder, consultant, and investor specializing in
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
+
       </Stack>
+      <QRCode
+    size={128}
+    value={"https://www.nuwan.org"}
+  />
     </Stack>
   );
 }
@@ -67,12 +73,9 @@ export default function HomePage() {
   return (
     <Box sx={{ p: 3, maxWidth: 720, margin: "auto" }}>
       <PageTitle />
-
       <TimelineSection />
-
-      <LinksSection />
-
       <ProfileSection />
+      <LinksSection />
       <PageFooter />
     </Box>
   );
