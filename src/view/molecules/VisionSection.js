@@ -3,16 +3,23 @@ import ProfileParagraph from "./ProfileParagraph";
 import Title from "./Title";
 
 const PARAGRAPH_LIST = [
-  "As I mentioned above, I specialize in AI, ML and Data, and I try to apply these technologies to achieve meaningful ends. What ends are meaningful to me?",
+  "I specialize in AI, ML, and Data, aiming to use these technologies to reduce suffering—a fundamental goal I believe in.",
 
-  "Personally, I believe that there are very few fundamental ends; by which I mean, ends that are ends by themselves and not means to other ends. 'Reducing Suffering' is such a fundamental end, which I'm very interested in achieving.",
+"Here are key areas where I think we can make an impact:",
 
-  "More pragmatically, here are some important ways in which I think we can reduce suffering in the world:",
+"1️. Health: The global health crisis is lowering quality of life, reducing economic productivity, and destabilizing societies. Key issues include getting people to eat fewer processed foods, cut down on carbs, and exercise more.",
 
-  "1️. Health: The world in general is suffering from a health crisis, which in turn is causing a serious reduction in the quality of life, economic productivity, and social stability. Of the many problems, there are a few problems that need immediate attention: For example, How do we get people to eat fewer processed foods, fewer carbs, and exercise more?",
-  "2️. Education: How will education change in the future, especially given the implications of AI? Traditionally, education has 4 purposes: Learning to know; to do; to be with others; and to be with oneself. AI is likely to completely change the first, significantly change the second, and nontrivially influence the third, and the fourth. How might we design Education 2.0 to take these into account?",
-  "In Sri Lanka, for example, how might we use education to lift people's standard of living, and in many cases, bring them out of poverty?",
-  "3️. Journalism: Fake News, Deep Fakes, Misinformation and Bias are serious problems. While it is tempting to try and solve these problems, we need to ask the deeper question: What is the purpose of news and journalism in the first place? How might we use Journalism to reduce suffering in the world?",
+"1a Food Security: Millions suffer from hunger and malnutrition. How can AI and data-driven approaches improve food distribution, reduce waste, and ensure that everyone has access to nutritious food?",
+
+"2️. Education: AI will transform education, affecting how we learn, work, and interact with others and ourselves. How can we design Education 2.0 to lift people out of poverty and improve living standards, especially in Sri Lanka?",
+
+"2a. Journalism: With the rise of fake news, deep fakes, and bias, we must ask: What is the true purpose of journalism? How can we use it to reduce suffering in the world?",
+
+"3. Justice: Inequities and inefficiencies in the justice system contribute to prolonged suffering. How can AI and data help ensure fairer, faster, and more transparent legal processes?",
+
+"4. Transportation: Inefficient and unsafe transportation systems cause accidents, pollution, and stress. How can we design smarter, safer, and more efficient transportation networks that reduce travel-related suffering?",
+
+"5. Financial Inclusion: Lack of access to banking and financial services limits economic opportunities for many. How can fintech innovations provide financial services to underserved populations, empowering them to improve their livelihoods?",
 ];
 
 export default function VisionSection() {
