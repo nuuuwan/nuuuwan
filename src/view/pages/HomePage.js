@@ -64,11 +64,13 @@ function PageFooter() {
 
 export default function HomePage() {
   return (
-    <Box sx={{ p: 3, maxWidth: 720, margin: "auto" }}>
+    <Box sx={{ p: 3, maxWidth: 800, margin: "auto" }}>
       <PageTitle />
+
       <TimelineSection />
-      <ProfileSection />
       <VisionSection />
+      <ProfileSection />
+
       <LinksSection />
       <PageFooter />
     </Box>

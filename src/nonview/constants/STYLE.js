@@ -2,7 +2,7 @@ let STYLE = {};
 
 STYLE.FONT = {
   SIZE: 12,
-  FAMILY: "News Cycle",
+  FAMILY: "Imprima",
 };
 
 export default STYLE;
