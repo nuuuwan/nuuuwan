@@ -2,7 +2,7 @@ let STYLE = {};
 
 STYLE.FONT = {
   SIZE: 12,
-  FAMILY: "Anuphan",
+  FAMILY: "Chocolate Classical Sans",
 };
 
 export default STYLE;

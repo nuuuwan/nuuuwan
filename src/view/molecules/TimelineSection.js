@@ -14,7 +14,7 @@ const TIMELINE_INFO_LIST = [
   },
   {
     timeStr: "2009-2017",
-    title: "Meta (formerly Facebook), California, USA & London, UK",
+    title: "Facebook (formerly Meta), California, USA & London, UK",
     details: "Software Engineer & Engineering Manager",
     Icon: FacebookIcon,
   },

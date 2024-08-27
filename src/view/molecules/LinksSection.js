@@ -83,7 +83,7 @@ const CONTENT_INFO_LIST = [
 export default function LinksSection() {
   return (
     <Box>
-      <Title>More information</Title>
+      <Title>See also</Title>
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {
           return <ListItemContentInfo key={i} contentInfo={contentInfo} />;

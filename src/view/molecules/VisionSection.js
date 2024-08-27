@@ -18,7 +18,7 @@ const PARAGRAPH_LIST = [
 export default function VisionSection() {
   return (
     <Box>
-      <Title>Professional Interests</Title>
+      <Title>Motivations</Title>
       {PARAGRAPH_LIST.map(function (paragraph, i) {
         return <ProfileParagraph key={i}>{paragraph}</ProfileParagraph>;
       })}
