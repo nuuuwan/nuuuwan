@@ -1,7 +1,7 @@
 let STYLE = {};
 
 STYLE.FONT = {
-  SIZE: 14,
+  SIZE: 12,
   FAMILY: "Anuphan",
 };
 
