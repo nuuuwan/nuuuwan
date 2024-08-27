@@ -4,6 +4,7 @@ import {
   LinksSection,
   ProfileSection,
   TimelineSection,
+  VisionSection,
 } from "../../view/molecules";
 
 import QRCode from "react-qr-code";
@@ -67,6 +68,7 @@ export default function HomePage() {
       <PageTitle />
       <TimelineSection />
       <ProfileSection />
+      <VisionSection />
       <LinksSection />
       <PageFooter />
     </Box>

@@ -5,6 +5,7 @@ import ProfileSection from "./ProfileSection";
 import TimelineItemCustom from "./TimelineItemCustom";
 import TimelineSection from "./TimelineSection";
 import Title from "./Title";
+import VisionSection from "./VisionSection";
 
 export {
   LinksSection,
@@ -13,4 +14,5 @@ export {
   TimelineItemCustom,
   TimelineSection,
   Title,
+  VisionSection,
 };
