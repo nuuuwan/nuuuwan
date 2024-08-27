@@ -42,7 +42,7 @@ function PageTitle() {
           Artificial Intelligence, Machine Learning and Data Science
         </Typography>
       </Stack>
-      <QRCode size={128} value={"https://www.nuwan.org"} />
+     
     </Stack>
   );
 }
@@ -50,14 +50,16 @@ function PageTitle() {
 function PageFooter() {
   return (
     <Stack
-      direction="row"
+      direction="column"
       alignItems="center"
       color="text.secondary"
       justifyContent="center"
       gap={2}
       sx={{ paddingTop: 2.5, marginTop: 2.5, borderTop: "1px solid #f8f8f8" }}
     >
+       <QRCode size={256} value={"https://www.nuwan.org"} />
       <Typography variant="caption">"This too shall pass"</Typography>
+      
     </Stack>
   );
 }
