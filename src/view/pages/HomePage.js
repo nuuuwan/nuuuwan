@@ -13,7 +13,7 @@ const STYLE_INNER = {
   AVATAR: {
     height: STYLE.FONT.SIZE * 12,
     width: STYLE.FONT.SIZE * 12,
-    filter: "grayscale(100%)",
+    filter: "opacity(33%); ",
   },
 };
 
