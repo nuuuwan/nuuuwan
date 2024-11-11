@@ -1,4 +1,4 @@
-import { Typography } from "@mui/material";
+import { Typography } from '@mui/material';
 import {
   TimelineItem,
   TimelineSeparator,
@@ -6,13 +6,13 @@ import {
   TimelineContent,
   TimelineDot,
   TimelineOppositeContent,
-} from "@mui/lab";
+} from '@mui/lab';
 
 export default function TimelineItemCustom({ info }) {
   const { timeStr, title, details, Icon, url } = info;
 
   const onClick = function () {
-    window.open(url, "_blank");
+    window.open(url, '_blank');
   };
 
   return (

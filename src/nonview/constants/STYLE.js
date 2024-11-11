@@ -2,7 +2,7 @@ let STYLE = {};
 
 STYLE.FONT = {
   SIZE: 12,
-  FAMILY: "Imprima",
+  FAMILY: 'aFACAD',
 };
 
 export default STYLE;

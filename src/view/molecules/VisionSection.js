@@ -1,11 +1,11 @@
-import { Box, Paper, Grid, Typography } from "@mui/material";
-import Title from "./Title";
-import ProfileParagraph from "./ProfileParagraph";
+import { Box, Paper, Grid, Typography } from '@mui/material';
+import Title from './Title';
+import ProfileParagraph from './ProfileParagraph';
 
 function VisionItem({ vision }) {
   const { title, details } = vision;
   return (
-    <Paper sx={{ maxWidth: 300, m: 1, p: 2, backgroundColor: "#f801" }}>
+    <Paper sx={{ maxWidth: 300, m: 1, p: 2, backgroundColor: '#f801' }}>
       <Typography variant="h6" color="text.secondary">
         {title}
       </Typography>
@@ -15,52 +15,33 @@ function VisionItem({ vision }) {
 }
 
 const PARAGRAPH_LIST = [
-  "I specialize in AI, ML, and Data, aiming to use these technologies to reduce suffering—a fundamental goal I believe in.",
+  'I specialize in AI, ML, Data, Cryptography, and Design, aiming to use these technologies to reduce suffering — a fundamental goal I believe in.',
 
-  "Here are key areas where I think we can make an impact:",
+  'Here are key areas where I think we can make an impact:',
 ];
-
 const VISION_ITEM_LIST = [
   {
-    title: "1️. Health",
+    title: '1. Lifelong Learning',
     details:
-      "The global health crisis is lowering quality of life, reducing economic productivity, and destabilizing societies. Key issues include getting people to eat fewer processed foods, cut down on carbs, and exercise more.",
+      "Education is foundational to human progress. I'm especially focused on understanding how adults learn new skills, including natural languages, to improve educational methods and tools for lifelong learning.",
   },
 
   {
-    title: "1a. Food Security",
+    title: '2. Sinhala Language Technology',
     details:
-      "Millions suffer from hunger and malnutrition. How can AI and data-driven approaches improve food distribution, reduce waste, and ensure that everyone has access to nutritious food?",
+      'Despite being spoken by over 20 million people, Sinhala lacks robust digital tools. I am committed to developing high-quality language technology for Sinhala, including keyboards, speech recognition, and large language models, to ensure greater accessibility and inclusivity.',
   },
 
   {
-    title: "2️. Education",
+    title: '3. Elevating Information Quality',
     details:
-      "AI will transform education, affecting how we learn, work, and interact with others and ourselves. How can we design Education 2.0 to lift people out of poverty and improve living standards, especially in Sri Lanka?",
+      "The internet's ad-driven model, coupled with content-generation tools, has impacted content quality. I research and develop technologies aimed at enhancing the quality and reliability of information, making the digital world a more constructive space.",
   },
 
   {
-    title: "2a. Journalism",
+    title: '4. Narrative-based Education',
     details:
-      "With the rise of fake news, deep fakes, and bias, we must ask: What is the true purpose of journalism? How can we use it to reduce suffering in the world?",
-  },
-
-  {
-    title: "3. Justice",
-    details:
-      "Inequities and inefficiencies in the justice system contribute to prolonged suffering. How can AI and data help ensure fairer, faster, and more transparent legal processes?",
-  },
-
-  {
-    title: "4. Transportation",
-    details:
-      "Inefficient and unsafe transportation systems cause accidents, pollution, and stress. How can we design smarter, safer, and more efficient transportation networks that reduce travel-related suffering?",
-  },
-
-  {
-    title: "5. Financial Inclusion",
-    details:
-      "Lack of access to banking and financial services limits economic opportunities for many. How can fintech innovations provide financial services to underserved populations, empowering them to improve their livelihoods?",
+      'Storytelling is a powerful tool for engagement. I am exploring narrative techniques to simplify and make complex topics in economics, politics, and technology accessible and compelling for diverse audiences.',
   },
 ];
 
