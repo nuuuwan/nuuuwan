@@ -29,7 +29,7 @@ const VISION_ITEM_LIST = [
   {
     title: '2. Sinhala Language Technology',
     details:
-      'Despite being spoken by over 20 million people, Sinhala lacks robust digital tools. I am committed to developing high-quality language technology for Sinhala, including keyboards, speech recognition, and large language models, to ensure greater accessibility and inclusivity.',
+      'Despite being spoken by over 20 million people, Sinhala lacks robust digital tools. I am committed to developing high-quality language technology for Sinhala, including keyboards, speech recognition, and large language models, to ensure greater accessibility.',
   },
 
   {
