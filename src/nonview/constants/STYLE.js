@@ -1,8 +1,8 @@
 let STYLE = {};
 
 STYLE.FONT = {
-  SIZE: 12,
-  FAMILY: 'aFACAD',
+  SIZE: 15,
+  FAMILY: 'Afacad',
 };
 
 export default STYLE;
