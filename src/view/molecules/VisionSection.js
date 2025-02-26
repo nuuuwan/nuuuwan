@@ -5,7 +5,7 @@ import ProfileParagraph from './ProfileParagraph';
 function VisionItem({ vision }) {
   const { title, details } = vision;
   return (
-    <Paper sx={{ maxWidth: 300, m: 1, p: 2, backgroundColor: '#f801' }}>
+    <Paper sx={{ maxWidth: 300, m: 1, p: 2, backgroundColor: '#fc0' }}>
       <Typography variant="h6" color="text.secondary">
         {title}
       </Typography>
@@ -17,31 +17,33 @@ function VisionItem({ vision }) {
 const PARAGRAPH_LIST = [
   'I specialize in AI, ML, Data, Cryptography, and Design, aiming to use these technologies to reduce suffering — a fundamental goal I believe in.',
 
-  'Here are key areas where I think we can make an impact:',
+  "Here are important problem areas I'm currently interested in:",
 ];
 const VISION_ITEM_LIST = [
   {
-    title: '1. Lifelong Learning',
+    title: 'Accelerating AI Adoption in Sri Lanka',
     details:
-      "Education is foundational to human progress. I'm especially focused on understanding how adults learn new skills, including natural languages, to improve educational methods and tools for lifelong learning.",
+      'Digitalization is about creating an abstract data representation of the real world. If we are to solve real-world problems with AI, the aspects of the real world that interest us must be digitalized. The lack of digitalization and data is the biggest barrier to the fast adoption of AI in Sri Lanka.',
   },
-
   {
-    title: '2. Sinhala Language Technology',
+    title: 'Comfortable Living',
     details:
-      'Despite being spoken by over 20 million people, Sinhala lacks robust digital tools. I am committed to developing high-quality language technology for Sinhala, including keyboards, speech recognition, and large language models, to ensure greater accessibility.',
+      'How might we use technology to make the lives of ordinary people more comfortable and contented? Especially in countries like Sri Lanka, which are affected by economic, environmental, and social issues.',
   },
-
   {
-    title: '3. Elevating Information Quality',
+    title: 'Lifelong Learning',
     details:
-      "The internet's ad-driven model, coupled with content-generation tools, has impacted content quality. I research and develop technologies aimed at enhancing the quality and reliability of information, making the digital world a more constructive space.",
+      'Education is foundational to human progress. Sadly, even the highest educational institutions struggle to cope with the rapid pace of technological change, especially AI. Most have buried their heads in the sand. What does Education 2.0 look like?',
   },
-
   {
-    title: '4. Narrative-based Education',
+    title: 'Sinhala Language Technology',
     details:
-      'Storytelling is a powerful tool for engagement. I am exploring narrative techniques to simplify and make complex topics in economics, politics, and technology accessible and compelling for diverse audiences.',
+      'Despite being spoken by over 20 million people, Sinhala lacks robust digital tools—ranging from keyboards and speech recognition to large language models.',
+  },
+  {
+    title: 'Elevating Information Quality',
+    details:
+      "The internet's ad-driven model, coupled with content-generation tools, has impacted content quality. How might we develop technologies that enhance the quality and reliability of information, making the digital world a more constructive and creative space?",
   },
 ];
 
