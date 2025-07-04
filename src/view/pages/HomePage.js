@@ -1,5 +1,5 @@
 import { Avatar, Box, Stack, Typography } from "@mui/material";
-
+import { VERSION } from "../../nonview/constants";
 import {
   LinksSection,
   ProfileSection,
@@ -56,8 +56,10 @@ function PageFooter() {
       gap={2}
       sx={{ paddingTop: 2.5, marginTop: 2.5, borderTop: "1px solid #f8f8f8" }}
     >
-      <QRCode size={256} value={"https://www.nuwan.org"} />
-      <Typography variant="caption">"This too shall pass"</Typography>
+      <QRCode size={256} value={"https://www.nuwan.org"} />{" "}
+      <Typography variant="body1">https://www.nuwan.org</Typography>
+      <Typography variant="caption">{VERSION.VERSION_STR}</Typography>{" "}
+      <Typography variant="caption">"This too shall pass."</Typography>
     </Stack>
   );
 }
