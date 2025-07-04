@@ -1,6 +1,6 @@
-import { Box } from '@mui/material';
-import ProfileParagraph from './ProfileParagraph';
-import Title from './Title';
+import { Box } from "@mui/material";
+import ProfileParagraph from "./ProfileParagraph";
+import Title from "./Title";
 
 const PARAGRAPH_LIST = [
   "Nuwan is a computer scientist specialising in Artificial Intelligence, Machine Learning, and Data Science. He is an angel investor focused on high-IP AI startups, and a consultant and architect to companies across the US, EU, East Asia, and Sri Lanka. His work spans identifying AI-driven business opportunities, designing intelligent systems, and building high-performing AI teams.",

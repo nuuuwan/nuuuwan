@@ -13,7 +13,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import AudiotrackIcon from "@mui/icons-material/Audiotrack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
-import Title from "./Title";
 
 function ListItemContentInfo({ contentInfo }) {
   const { title, subTitle, url, Icon, color } = contentInfo;
@@ -26,7 +25,7 @@ function ListItemContentInfo({ contentInfo }) {
     <ListItem sx={{ p: 0, m: 0, color }} onClick={onClick}>
       <ListItemButton>
         <ListItemIcon>
-          <Icon sx={{color}} />
+          <Icon sx={{ color }} />
         </ListItemIcon>
         <ListItemText primary={title} secondary={subTitle} />
       </ListItemButton>
@@ -39,8 +38,8 @@ const CONTENT_INFO_LIST = [
     subTitle: "Professional Information, Employment History & Education",
     url: "https://www.linkedin.com/in/nuwansenaratna",
     Icon: LinkedInIcon,
-    color: "#0077B5", 
-  },  
+    color: "#0077B5",
+  },
   {
     title: "Google Scholar",
     subTitle: "Academic Papers, Patents & Citations",
@@ -57,17 +56,18 @@ const CONTENT_INFO_LIST = [
   },
   {
     title: "Medium",
-    subTitle: "Long-Form Articles on Technology, Business, Economics, Arts & Philosophy",
+    subTitle:
+      "Long-Form Articles on Technology, Business, Economics, Arts & Philosophy",
     url: "https://medium.com/@nuwans",
     Icon: NewspaperIcon,
     color: "#00ab6c",
   },
-    {
+  {
     title: "Substack",
     subTitle: "Newer Articles. Same as Medium, but without Paywall",
     url: "https://substack.com/@nuuuwan",
     Icon: NewspaperIcon,
-    color: "#FF6719", 
+    color: "#FF6719",
   },
 
   {
@@ -75,7 +75,7 @@ const CONTENT_INFO_LIST = [
     subTitle: "Comments & Summaries of all the above at @nuuuwan",
     url: "https://twitter.com/nuuuwan",
     Icon: XIcon,
-    color: "#1DA1F2", 
+    color: "#1DA1F2",
   },
   {
     title: "YouTube",
@@ -96,7 +96,6 @@ const CONTENT_INFO_LIST = [
 export default function LinksSection() {
   return (
     <Box>
-
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {
           return <ListItemContentInfo key={i} contentInfo={contentInfo} />;

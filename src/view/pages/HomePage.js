@@ -3,13 +3,13 @@ import { Avatar, Box, Stack, Typography } from "@mui/material";
 import {
   LinksSection,
   ProfileSection,
-  TimelineSection,
   VisionSection,
 } from "../../view/molecules";
 
 import QRCode from "react-qr-code";
 
-const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/nuwans.profile.jpeg";
+const PROFILE_IMAGE_PATH =
+  process.env.PUBLIC_URL + "/images/nuwans.profile.jpeg";
 
 const STYLE_INNER = {
   AVATAR: {
@@ -70,7 +70,6 @@ export default function HomePage() {
       <LinksSection />
       <ProfileSection />
       <VisionSection />
-
 
       <PageFooter />
     </Box>
