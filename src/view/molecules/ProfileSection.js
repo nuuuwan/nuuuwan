@@ -14,8 +14,8 @@ const PROFILE_CONTENT = {
   ],
   Maxims: [
     "Success = Iteration × Upside",
-    "Iteration = Freedom × Fun × Focus × Flow",
-    "Upside = Privilege × Timing × Difficulty × Luck",
+    "Iteration = Fun × Flow × Create",
+    "Upside = Edge × Time × Skill",
   ],
 };
 
@@ -24,7 +24,7 @@ export default function ProfileSection() {
     <Box>
       {Object.entries(PROFILE_CONTENT).map(function (
         [title, paragraphs],
-        iEntry,
+        iEntry
       ) {
         return (
           <Box key={iEntry}>

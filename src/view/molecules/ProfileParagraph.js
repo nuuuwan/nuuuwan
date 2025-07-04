@@ -3,9 +3,7 @@ import { Box, Typography } from "@mui/material";
 function Equation({ children }) {
   return (
     <Box sx={{ m: 1, p: 2, background: "#eee", borderRadius: "100%" }}>
-      <Typography variant="h6" component="span">
-        {children}
-      </Typography>
+      {children}
     </Box>
   );
 }
