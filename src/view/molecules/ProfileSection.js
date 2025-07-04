@@ -24,7 +24,7 @@ export default function ProfileSection() {
     <Box>
       {Object.entries(PROFILE_CONTENT).map(function (
         [title, paragraphs],
-        iEntry
+        iEntry,
       ) {
         return (
           <Box key={iEntry}>
