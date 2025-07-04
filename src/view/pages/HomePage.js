@@ -73,7 +73,7 @@ function PageFooter() {
 
 export default function HomePage() {
   return (
-    <Box sx={{ p: 3, maxWidth: 800, margin: "auto" }}>
+    <Box sx={{ p: 3, maxWidth: 640, margin: "auto" }}>
       <PageTitle />
 
       <LinksSection />
