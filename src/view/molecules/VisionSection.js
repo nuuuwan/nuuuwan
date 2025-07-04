@@ -50,7 +50,7 @@ const VISION_ITEM_LIST = [
 export default function VisionSection() {
   return (
     <Box>
-      <Title>Motivations</Title>
+      <Title>Motivations (To be updated)</Title>
       {PARAGRAPH_LIST.map(function (paragraph, i) {
         return <ProfileParagraph key={i}>{paragraph}</ProfileParagraph>;
       })}
