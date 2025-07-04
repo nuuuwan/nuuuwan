@@ -71,7 +71,7 @@ const CONTENT_INFO_LIST = [
   },
 
   {
-    title: "X/Twitter",
+    title: "X (formerly Twitter)",
     subTitle: "Comments & Summaries of all the above at @nuuuwan",
     url: "https://twitter.com/nuuuwan",
     Icon: XIcon,
