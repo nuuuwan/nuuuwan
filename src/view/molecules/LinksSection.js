@@ -39,6 +39,12 @@ const CONTENT_INFO_LIST = [
     subTitle: "Professional Information, Employment History & Education",
     url: "https://www.linkedin.com/in/nuwansenaratna",
     Icon: LinkedInIcon,
+  },  
+  {
+    title: "Google Scholar",
+    subTitle: "Academic Papers, Patents & Citations",
+    url: "https://scholar.google.com/citations?user=VOVN8f8AAAAJ&hl=en",
+    Icon: SchoolIcon,
   },
   {
     title: "Medium",
@@ -55,10 +61,10 @@ const CONTENT_INFO_LIST = [
     Icon: GitHubIcon,
   },
   {
-    title: "Google Scholar",
-    subTitle: "Academic Papers, Patents & Citations",
-    url: "https://scholar.google.com/citations?user=VOVN8f8AAAAJ&hl=en",
-    Icon: SchoolIcon,
+    title: "X/Twitter",
+    subTitle: "Comments & Summaries of all the above at @nuuuwan",
+    url: "https://twitter.com/nuuuwan",
+    Icon: XIcon,
   },
   {
     title: "YouTube",
@@ -72,18 +78,13 @@ const CONTENT_INFO_LIST = [
     url: "https://soundcloud.com/nuwan-i-senaratna",
     Icon: AudiotrackIcon,
   },
-  {
-    title: "X/Twitter",
-    subTitle: "Comments & Summaries of all the above at @nuuuwan",
-    url: "https://twitter.com/nuuuwan",
-    Icon: XIcon,
-  },
+
 ];
 
 export default function LinksSection() {
   return (
     <Box>
-      <Title>See also</Title>
+
       <List>
         {CONTENT_INFO_LIST.map(function (contentInfo, i) {
           return <ListItemContentInfo key={i} contentInfo={contentInfo} />;

@@ -67,11 +67,11 @@ export default function HomePage() {
     <Box sx={{ p: 3, maxWidth: 800, margin: "auto" }}>
       <PageTitle />
 
+      <LinksSection />
       <TimelineSection />
       <VisionSection />
       <ProfileSection />
 
-      <LinksSection />
       <PageFooter />
     </Box>
   );
