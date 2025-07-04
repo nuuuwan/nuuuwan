@@ -15,9 +15,17 @@ function VisionItem({ vision }) {
 }
 
 const PARAGRAPH_LIST = [
-  "My core motivation in life is to use my talents, skills, resources, and opportunities to help reduce suffering in the world.",
+  "Mathematician Richard Hamming was known for asking two critical questions: “What are the most important problems in your field?” and “Why aren’t you working on them?”",
+  "My core motivation in life is to use my talents, skills, resources, and opportunities to help reduce suffering in the world. For me, “important” means “that which reduces suffering”.",
+  // "With that in mind, here are the problems I currently believe are the most important ones I should be working on:",
 ];
-const VISION_ITEM_LIST = [];
+const VISION_ITEM_LIST = [
+  // {
+  //   title: "",
+  //   details:
+  //     "",
+  // },
+];
 
 export default function VisionSection() {
   return (
