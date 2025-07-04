@@ -9,13 +9,13 @@ import {
 
 import QRCode from "react-qr-code";
 
-const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/profile.jpg";
+const PROFILE_IMAGE_PATH = process.env.PUBLIC_URL + "/images/nuwans.profile.jpeg";
 
 const STYLE_INNER = {
   AVATAR: {
     height: 128,
     width: 128,
-    filter: "opacity(20%); ",
+    filter: "grayscale(100%)",
   },
 };
 
