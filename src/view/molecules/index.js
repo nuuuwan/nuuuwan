@@ -3,6 +3,12 @@ import LinksSection from "./LinksSection";
 import ProfileParagraph from "./ProfileParagraph";
 import ProfileSection from "./ProfileSection";
 import Title from "./Title";
-import VisionSection from "./VisionSection";
+import MotivationsSection from "./MotivationsSection";
 
-export { LinksSection, ProfileParagraph, ProfileSection, Title, VisionSection };
+export {
+  LinksSection,
+  ProfileParagraph,
+  ProfileSection,
+  Title,
+  MotivationsSection,
+};
