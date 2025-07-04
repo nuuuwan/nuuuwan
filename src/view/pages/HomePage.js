@@ -1,4 +1,4 @@
-import { Avatar, Box, Stack, Typography } from "@mui/material";
+import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import { VERSION } from "../../nonview/constants";
 import {
   LinksSection,
@@ -18,6 +18,8 @@ const STYLE_INNER = {
     filter: "grayscale(100%)",
   },
 };
+
+const REMOTE_URL = "https://www.nuwan.org";
 
 function PageTitle() {
   return (
@@ -56,9 +58,16 @@ function PageFooter() {
       gap={2}
       sx={{ paddingTop: 2.5, marginTop: 2.5, borderTop: "1px solid #f8f8f8" }}
     >
-      <QRCode size={256} value={"https://www.nuwan.org"} />{" "}
-      <Typography variant="body1">https://www.nuwan.org</Typography>
-      <Typography variant="caption">{VERSION.VERSION_STR}</Typography>{" "}
+      <QRCode size={256} value={REMOTE_URL} />
+      <Link
+        href={REMOTE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        sx={{ color: "#000", textDecoration: "none" }}
+      >
+        <Typography variant="h6">{REMOTE_URL}</Typography>{" "}
+      </Link>
+      <Typography variant="body1">{VERSION.VERSION_STR}</Typography>{" "}
       <Typography variant="caption">"This too shall pass."</Typography>
     </Stack>
   );
