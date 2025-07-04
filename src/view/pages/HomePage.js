@@ -1,10 +1,6 @@
 import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
 import { VERSION } from "../../nonview/constants";
-import {
-  LinksSection,
-  ProfileSection,
-  MotivationsSection,
-} from "../../view/molecules";
+import { LinksSection, ProfileSection } from "../../view/molecules";
 
 import QRCode from "react-qr-code";
 
@@ -82,7 +78,6 @@ export default function HomePage() {
 
       <LinksSection />
       <ProfileSection />
-      <MotivationsSection />
 
       <PageFooter />
     </Box>
