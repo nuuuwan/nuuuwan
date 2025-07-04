@@ -68,8 +68,9 @@ export default function HomePage() {
       <PageTitle />
 
       <LinksSection />
-      <VisionSection />
       <ProfileSection />
+      <VisionSection />
+
 
       <PageFooter />
     </Box>
