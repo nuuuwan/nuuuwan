@@ -67,8 +67,10 @@ function PageFooter() {
       >
         <Typography variant="h6">{REMOTE_URL}</Typography>{" "}
       </Link>
-      <Typography variant="body1">{VERSION.VERSION_STR}</Typography>{" "}
-      <Typography variant="caption">"This too shall pass."</Typography>
+      <Typography variant="caption">v{VERSION.DATETIME_STR}</Typography>{" "}
+      <Typography variant="caption" sx={{ color: "#eee" }}>
+        "This too shall pass."
+      </Typography>
     </Stack>
   );
 }
