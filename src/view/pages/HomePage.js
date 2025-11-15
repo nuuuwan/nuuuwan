@@ -35,9 +35,16 @@ function PageTitle() {
         <Typography variant="h5">නුවන් ඉ. සේනාරත්න</Typography>
         <Typography variant="h5">நுவன் இ. சேனாரத்ன</Typography>
         <Typography variant="h5">Nuwan I. Senaratna</Typography>
-        <Typography variant="body1" color="text.secondary">
-          Computer Scientist specialising in Artificial Intelligence, Machine
-          Learning, and Data Science
+        <Typography variant="body1">
+          I help organisations use AI in ways that actually solve problems, not
+          just follow trends.
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Most of my work is about making messy data useful, improving how
+          decisions get made, and building systems that scale in the real world.
+          I split my time between Sri Lanka and the Bay Area, and I invest in
+          founders who are building practical, grounded AI products. Before this
+          I spent several years at Facebook building large scale AI systems.
         </Typography>
       </Stack>
     </Stack>
