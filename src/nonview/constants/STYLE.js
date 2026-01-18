@@ -2,7 +2,7 @@ let STYLE = {};
 
 STYLE.FONT = {
   SIZE: 15,
-  FAMILY: "Ubuntu",
+  FAMILY: "Ubuntu Mono",
 };
 
 export default STYLE;
