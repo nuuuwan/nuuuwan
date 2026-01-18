@@ -1,5 +1,5 @@
 import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
-import { VERSION } from "../../nonview/constants";
+import { VERSION } from "../../nonview/cons";
 import { LinksSection, ProfileSection } from "../../view/molecules";
 
 import QRCode from "react-qr-code";
