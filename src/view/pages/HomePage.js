@@ -1,4 +1,4 @@
-import { Avatar, Box, Link, Stack, Typography } from "@mui/material";
+import { Avatar, Box, Divider, Link, Stack, Typography } from "@mui/material";
 import { VERSION } from "../../nonview/cons";
 import { LinksSection, ProfileSection } from "../../view/molecules";
 
@@ -19,31 +19,59 @@ const REMOTE_URL = "https://www.nuwan.org";
 
 function PageTitle() {
   return (
-    <Stack
-      direction="row"
-      alignItems="center"
-      justifyContent="center"
-      gap={2}
-      sx={{
-        paddingBottom: 2.5,
-        marginBottom: 2.5,
-        borderBottom: "1px solid #eee",
-      }}
-    >
-      <Avatar alt="Profile" src={PROFILE_IMAGE_PATH} sx={STYLE_INNER.AVATAR} />
-      <Stack direction="column" gap={0.5}>
-        <Typography variant="h5">නුවන් ඉ. සේනාරත්න</Typography>
-        <Typography variant="h5">நுவன் இ. சேனாரத்ன</Typography>
-        <Typography variant="h5">Nuwan I. Senaratna</Typography>
-        <Typography variant="body2" color="text.secondary">
-          I help organisations use AI that actually works. I take messy data,
-          make it useful, and build systems that improve real decisions. I split
-          my time between Sri Lanka and the Bay Area, and I invest in founders
-          building practical AI. Before this I built large scale AI systems at
-          Facebook.
-        </Typography>
+    <Box>
+      <Typography
+        variant="h4"
+        sx={{
+          color: "white",
+          backgroundColor: "black",
+          width: "fit-content",
+          padding: 0.1,
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        Nuwan I. Senaratna
+      </Typography>
+      <Typography
+        variant="body2"
+        sx={{
+          width: "fit-content",
+          padding: 0.1,
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        Computer Scientist, Investor, Consultant
+      </Typography>
+      <Divider sx={{ marginY: 2 }} />
+      <Stack
+        direction="row"
+        alignItems="center"
+        justifyContent="center"
+        gap={2}
+        sx={{
+          paddingBottom: 2.5,
+          marginBottom: 2.5,
+          borderBottom: "1px solid #eee",
+        }}
+      >
+        <Avatar
+          alt="Profile"
+          src={PROFILE_IMAGE_PATH}
+          sx={STYLE_INNER.AVATAR}
+        />
+        <Stack direction="column" gap={0}>
+          <Typography variant="body2" color="text.secondary">
+            I help organisations use AI that actually works. I take messy data,
+            make it useful, and build systems that improve real decisions. I
+            split my time between Sri Lanka and the Bay Area, and I invest in
+            founders building practical AI. Before this I built large scale AI
+            systems at Facebook.
+          </Typography>
+        </Stack>
       </Stack>
-    </Stack>
+    </Box>
   );
 }
 
