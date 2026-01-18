@@ -1,8 +1,8 @@
 let STYLE = {};
 
 STYLE.FONT = {
-  SIZE: 14,
-  FAMILY: "Ubuntu Mono",
+  SIZE: 18,
+  FAMILY: "Asap Condensed",
 };
 
 export default STYLE;
