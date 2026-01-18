@@ -13,6 +13,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import AudiotrackIcon from "@mui/icons-material/Audiotrack";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import SchoolIcon from "@mui/icons-material/School";
+import PsychologyIcon from "@mui/icons-material/Psychology";
 
 function ListItemContentInfo({ contentInfo }) {
   const { title, subTitle, url, Icon, color } = contentInfo;
@@ -46,6 +47,13 @@ const CONTENT_INFO_LIST = [
     url: "https://scholar.google.com/citations?user=VOVN8f8AAAAJ&hl=en",
     Icon: SchoolIcon,
     color: "#4285F4",
+  },
+  {
+    title: "Justia",
+    subTitle: "Inventions, Patents and Patent Applications",
+    url: "https://patents.justia.com/inventor/nuwan-senaratna",
+    Icon: PsychologyIcon,
+    color: "#06357a",
   },
   {
     title: "GitHub",
