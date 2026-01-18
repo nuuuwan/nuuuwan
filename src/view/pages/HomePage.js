@@ -62,7 +62,14 @@ function PageTitle() {
           sx={STYLE_INNER.AVATAR}
         />
         <Stack direction="column" gap={0}>
-          <Typography variant="body2" color="text.secondary">
+          <Typography
+            variant="body2"
+            sx={{
+              p: 1,
+              backgroundColor: "#f8f8f8",
+              borderRadius: 1,
+            }}
+          >
             I help organisations use AI that actually works. I take messy data,
             make it useful, and build systems that improve real decisions. I
             split my time between Sri Lanka and the Bay Area, and I invest in
