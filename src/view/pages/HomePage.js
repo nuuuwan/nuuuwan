@@ -34,7 +34,7 @@ function PageTitle() {
         Nuwan I. Senaratna
       </Typography>
       <Typography
-        variant="body2"
+        variant="body1"
         sx={{
           width: "fit-content",
           padding: 0.1,
