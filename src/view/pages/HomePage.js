@@ -5,7 +5,7 @@ import { LinksSection, ProfileSection } from "../../view/molecules";
 import QRCode from "react-qr-code";
 
 const PROFILE_IMAGE_PATH =
-  process.env.PUBLIC_URL + "/images/nuwans.profile.jpeg";
+  process.env.PUBLIC_URL + "/images/nuwans.profile.jpg";
 
 const STYLE_INNER = {
   AVATAR: {
