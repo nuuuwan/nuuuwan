@@ -10,7 +10,7 @@ const PROFILE_CONTENT = {
     "He holds an MS in Computer Science from Stanford with a focus on Artificial Intelligence, and a BSc in Computer Science and Statistics from the University of Colombo. He also holds a Licentiate in Piano Performance from the Royal Schools of Music, London.",
     "His current interests include the next evolution of email, the digitalisation of public data in Sri Lanka, and applying machine intelligence to complex real world systems, while continuing to support early stage founders and invest in AI, data, and security technologies.",
   ],
-  ShortProfile: [
+  "Short-Profile": [
     "Nuwan Senaratna is a computer scientist specialising in AI, large scale systems, and data driven engineering. He spent over eight years at Facebook (Meta), founding and leading Ads engineering teams. He now works between Sri Lanka and the Bay Area as a founder, consultant, and investor, focusing on public data infrastructure, AI systems, and digital transformation. He holds an MS in Computer Science from Stanford.",
   ],
 };
